@@ -9,6 +9,10 @@
       "name": "Jorge",
       "surnames": "Sanz Briones",
       "description": "Backend software developer and technical leader",
+      "avatar": {
+        "alt": "rascafria.png",
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/09/01/2bcbd604-aaf4-4beb-97e2-95f9eca26740_rascafria.png"
+      },
       "location": {
         "notes": "Madrid"
       }
