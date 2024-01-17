@@ -214,6 +214,28 @@
     "status": "searchingActively"
   },
   "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Docker",
+        "type": "technology"
+      },
+      {
+        "name": "JAVA",
+        "type": "technology"
+      },
+      {
+        "name": "Kafka",
+        "type": "technology"
+      },
+      {
+        "name": "Mockito",
+        "type": "technology"
+      },
+      {
+        "name": "Spring Boot",
+        "type": "technology"
+      }
+    ],
     "desiredJobDescription": "Technical leader or developer in a company that has the same values as me, that allows me to learn new technologies and accept new challenges, and well paid\n\n",
     "goodPractices": "Pair programming, technical refinement of user stories, unit test before coding solution, refactoring code, integration tests, code review"
   }
