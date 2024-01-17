@@ -1,130 +1,56 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
-    "language": "EN",
-    "MACVersion": "0.3"
+    "language": "ES",
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
       "name": "Jorge",
       "surnames": "Sanz Briones",
+      "title": "Title",
       "description": "Backend software developer and technical leader",
       "avatar": {
-        "alt": "rascafria.png",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/09/01/2bcbd604-aaf4-4beb-97e2-95f9eca26740_rascafria.png"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/09/01/2bcbd604-aaf4-4beb-97e2-95f9eca26740_rascafria.png",
+        "alt": "rascafria.png"
       },
       "location": {
-        "notes": "Madrid"
+        "notes": "Autocompleted using Google Maps API (id: ChIJgTwKgJcpQg0RaSKMYcHeNsQ)",
+        "country": "España",
+        "region": "Comunidad de Madrid",
+        "municipality": "Madrid"
       }
     },
     "relevantLinks": [
       {
-        "type": "github",
-        "URL": "https://github.com/jorgesanz"
-      },
-      {
         "type": "linkedin",
         "URL": "https://www.linkedin.com/in/jorge-sanz-briones-99926731/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/jorgesanz"
       }
     ]
   },
   "knowledge": {
     "languages": [
       {
-        "name": "English"
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Italian"
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish"
+        "name": "IT",
+        "fullName": "Italiano",
+        "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
-      {
-        "skill": {
-          "name": "JAVA",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Spring",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Spring Boot",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MVC",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MongoDB",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JUnit",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Mockito",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Selenium",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Docker",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Kubernetes",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "CouchDB",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Kafka",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Redis",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "RabbitMQ",
-          "type": "technology"
-        }
-      },
       {
         "skill": {
           "name": "Atlassian",
@@ -145,7 +71,61 @@
       },
       {
         "skill": {
+          "name": "CouchDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JAVA",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JUnit",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Jira",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kafka",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kubernetes",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MVC",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Mockito",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
           "type": "technology"
         }
       },
@@ -154,6 +134,56 @@
           "name": "OpenApi",
           "type": "technology"
         }
+      },
+      {
+        "skill": {
+          "name": "RabbitMQ",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Redis",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Selenium",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring Boot",
+          "type": "technology"
+        }
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Liderazgo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Pensamiento creativo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Trabajo en equipo",
+          "type": "practice"
+        }
       }
     ]
   },
@@ -161,10 +191,30 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/jorge-sanz-briones-99926731/"
+          "URL": "https://www.linkedin.com/in/jorge-sanz-briones-99926731/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/jorgesanz",
+          "type": "github"
         }
+      ],
+      "contactMails": [
+        "jsanzbriones@gmail.com"
       ]
-    }
+    },
+    "preferences": {
+      "preferredRoles": [
+        "Engineering Management",
+        "Project Manager & Delivery Manager",
+        "Software Architect",
+        "Tech Lead"
+      ]
+    },
+    "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "Technical leader or developer in a company that has the same values as me, that allows me to learn new technologies and accept new challenges, and well paid\n\n",
+    "goodPractices": "Pair programming, technical refinement of user stories, unit test before coding solution, refactoring code, integration tests, code review"
   }
 }
